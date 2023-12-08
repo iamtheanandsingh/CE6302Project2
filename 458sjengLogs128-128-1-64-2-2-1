@@ -1,0 +1,441 @@
+chmod: cannot access ‘myscript.sh’: No such file or directory
+{ce6304:~/caGem5proj2/Project1_SPEC/458.sjeng} chmod +x run_gem5.sh
+{ce6304:~/caGem5proj2/Project1_SPEC/458.sjeng} ./run_gem5.sh
+Start Time of Entire Program: Sat Dec  2 22:09:47 CST 2023
+Start Time of Simulation l1d_size-1: Sat Dec  2 22:09:47 CST 2023
+Simulation Number: 1
+Running command for l1d_size-1:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1d_size-1 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=1kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1d_size-1/output.txt
+End Time of Simulation l1d_size-1: Sat Dec  2 22:12:04 CST 2023
+Time Taken by Simulation l1d_size-1: 2 minutes and 17 seconds.
+Debug: l1d_size=1, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 208000
+Debug: Cost added to hashmaps
+Start Time of Simulation l1d_size-2: Sat Dec  2 22:12:04 CST 2023
+Simulation Number: 2
+Running command for l1d_size-2:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1d_size-2 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=2kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1d_size-2/output.txt
+End Time of Simulation l1d_size-2: Sat Dec  2 22:14:21 CST 2023
+Time Taken by Simulation l1d_size-2: 2 minutes and 17 seconds.
+Debug: l1d_size=2, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 209600
+Debug: Cost added to hashmaps
+Start Time of Simulation l1d_size-4: Sat Dec  2 22:14:21 CST 2023
+Simulation Number: 3
+Running command for l1d_size-4:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1d_size-4 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=4kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1d_size-4/output.txt
+End Time of Simulation l1d_size-4: Sat Dec  2 22:16:35 CST 2023
+Time Taken by Simulation l1d_size-4: 2 minutes and 14 seconds.
+Debug: l1d_size=4, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 212800
+Debug: Cost added to hashmaps
+Start Time of Simulation l1d_size-8: Sat Dec  2 22:16:35 CST 2023
+Simulation Number: 4
+Running command for l1d_size-8:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1d_size-8 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=8kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1d_size-8/output.txt
+End Time of Simulation l1d_size-8: Sat Dec  2 22:18:37 CST 2023
+Time Taken by Simulation l1d_size-8: 2 minutes and 2 seconds.
+Debug: l1d_size=8, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 219200
+Debug: Cost added to hashmaps
+Start Time of Simulation l1d_size-16: Sat Dec  2 22:18:37 CST 2023
+Simulation Number: 5
+Running command for l1d_size-16:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1d_size-16 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=16kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1d_size-16/output.txt
+End Time of Simulation l1d_size-16: Sat Dec  2 22:20:37 CST 2023
+Time Taken by Simulation l1d_size-16: 2 minutes and 0 seconds.
+Debug: l1d_size=16, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 232000
+Debug: Cost added to hashmaps
+Start Time of Simulation l1d_size-32: Sat Dec  2 22:20:38 CST 2023
+Simulation Number: 6
+Running command for l1d_size-32:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1d_size-32 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=32kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1d_size-32/output.txt
+End Time of Simulation l1d_size-32: Sat Dec  2 22:22:52 CST 2023
+Time Taken by Simulation l1d_size-32: 2 minutes and 14 seconds.
+Debug: l1d_size=32, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 257600
+Debug: Cost added to hashmaps
+Start Time of Simulation l1d_size-64: Sat Dec  2 22:22:53 CST 2023
+Simulation Number: 7
+Running command for l1d_size-64:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1d_size-64 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=64kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1d_size-64/output.txt
+End Time of Simulation l1d_size-64: Sat Dec  2 22:25:14 CST 2023
+Time Taken by Simulation l1d_size-64: 2 minutes and 21 seconds.
+Debug: l1d_size=64, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 308800
+Debug: Cost added to hashmaps
+Start Time of Simulation l1d_size-128: Sat Dec  2 22:25:14 CST 2023
+Simulation Number: 8
+Running command for l1d_size-128:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1d_size-128 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1d_size-128/output.txt
+End Time of Simulation l1d_size-128: Sat Dec  2 22:27:34 CST 2023
+Time Taken by Simulation l1d_size-128: 2 minutes and 20 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 411200
+Debug: Cost added to hashmaps
+Start Time of Simulation l2_assoc-1: Sat Dec  2 22:27:35 CST 2023
+Simulation Number: 9
+Running command for l2_assoc-1:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l2_assoc-1 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l2_assoc-1/output.txt
+End Time of Simulation l2_assoc-1: Sat Dec  2 22:29:48 CST 2023
+Time Taken by Simulation l2_assoc-1: 2 minutes and 13 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 411200
+Debug: Cost added to hashmaps
+Start Time of Simulation l2_assoc-2: Sat Dec  2 22:29:49 CST 2023
+Simulation Number: 10
+Running command for l2_assoc-2:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l2_assoc-2 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=2 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l2_assoc-2/output.txt
+End Time of Simulation l2_assoc-2: Sat Dec  2 22:32:09 CST 2023
+Time Taken by Simulation l2_assoc-2: 2 minutes and 20 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=2
+Debug: cost calculated=Total Cost: 493440
+Debug: Cost added to hashmaps
+Start Time of Simulation l2_assoc-4: Sat Dec  2 22:32:10 CST 2023
+Simulation Number: 11
+Running command for l2_assoc-4:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l2_assoc-4 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=4 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l2_assoc-4/output.txt
+End Time of Simulation l2_assoc-4: Sat Dec  2 22:34:24 CST 2023
+Time Taken by Simulation l2_assoc-4: 2 minutes and 14 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=4
+Debug: cost calculated=Total Cost: 657920
+Debug: Cost added to hashmaps
+Start Time of Simulation l2_assoc-8: Sat Dec  2 22:34:25 CST 2023
+Simulation Number: 12
+Running command for l2_assoc-8:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l2_assoc-8 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=8 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l2_assoc-8/output.txt
+End Time of Simulation l2_assoc-8: Sat Dec  2 22:36:46 CST 2023
+Time Taken by Simulation l2_assoc-8: 2 minutes and 21 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=8
+Debug: cost calculated=Total Cost: 986880
+Debug: Cost added to hashmaps
+Start Time of Simulation l1i_size-1: Sat Dec  2 22:36:46 CST 2023
+Simulation Number: 13
+Running command for l1i_size-1:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1i_size-1 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=1kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1i_size-1/output.txt
+End Time of Simulation l1i_size-1: Sat Dec  2 22:39:05 CST 2023
+Time Taken by Simulation l1i_size-1: 2 minutes and 19 seconds.
+Debug: l1d_size=128, l1i_size=1, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 208000
+Debug: Cost added to hashmaps
+Start Time of Simulation l1i_size-2: Sat Dec  2 22:39:05 CST 2023
+Simulation Number: 14
+Running command for l1i_size-2:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1i_size-2 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=2kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1i_size-2/output.txt
+End Time of Simulation l1i_size-2: Sat Dec  2 22:41:24 CST 2023
+Time Taken by Simulation l1i_size-2: 2 minutes and 19 seconds.
+Debug: l1d_size=128, l1i_size=2, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 209600
+Debug: Cost added to hashmaps
+Start Time of Simulation l1i_size-4: Sat Dec  2 22:41:25 CST 2023
+Simulation Number: 15
+Running command for l1i_size-4:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1i_size-4 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=4kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1i_size-4/output.txt
+End Time of Simulation l1i_size-4: Sat Dec  2 22:44:06 CST 2023
+Time Taken by Simulation l1i_size-4: 2 minutes and 41 seconds.
+Debug: l1d_size=128, l1i_size=4, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 212800
+Debug: Cost added to hashmaps
+Start Time of Simulation l1i_size-8: Sat Dec  2 22:44:07 CST 2023
+Simulation Number: 16
+Running command for l1i_size-8:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1i_size-8 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=8kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1i_size-8/output.txt
+End Time of Simulation l1i_size-8: Sat Dec  2 22:46:48 CST 2023
+Time Taken by Simulation l1i_size-8: 2 minutes and 41 seconds.
+Debug: l1d_size=128, l1i_size=8, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 219200
+Debug: Cost added to hashmaps
+Start Time of Simulation l1i_size-16: Sat Dec  2 22:46:48 CST 2023
+Simulation Number: 17
+Running command for l1i_size-16:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1i_size-16 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=16kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1i_size-16/output.txt
+End Time of Simulation l1i_size-16: Sat Dec  2 22:49:27 CST 2023
+Time Taken by Simulation l1i_size-16: 2 minutes and 39 seconds.
+Debug: l1d_size=128, l1i_size=16, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 232000
+Debug: Cost added to hashmaps
+Start Time of Simulation l1i_size-32: Sat Dec  2 22:49:27 CST 2023
+Simulation Number: 18
+Running command for l1i_size-32:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1i_size-32 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=32kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1i_size-32/output.txt
+End Time of Simulation l1i_size-32: Sat Dec  2 22:52:09 CST 2023
+Time Taken by Simulation l1i_size-32: 2 minutes and 42 seconds.
+Debug: l1d_size=128, l1i_size=32, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 257600
+Debug: Cost added to hashmaps
+Start Time of Simulation l1i_size-64: Sat Dec  2 22:52:10 CST 2023
+Simulation Number: 19
+Running command for l1i_size-64:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1i_size-64 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=64kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1i_size-64/output.txt
+End Time of Simulation l1i_size-64: Sat Dec  2 22:54:53 CST 2023
+Time Taken by Simulation l1i_size-64: 2 minutes and 43 seconds.
+Debug: l1d_size=128, l1i_size=64, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 308800
+Debug: Cost added to hashmaps
+Start Time of Simulation l1i_size-128: Sat Dec  2 22:54:54 CST 2023
+Simulation Number: 20
+Running command for l1i_size-128:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1i_size-128 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1i_size-128/output.txt
+End Time of Simulation l1i_size-128: Sat Dec  2 22:57:33 CST 2023
+Time Taken by Simulation l1i_size-128: 2 minutes and 39 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 411200
+Debug: Cost added to hashmaps
+Start Time of Simulation l2_size-1: Sat Dec  2 22:57:33 CST 2023
+Simulation Number: 21
+Running command for l2_size-1:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l2_size-1 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l2_size-1/output.txt
+End Time of Simulation l2_size-1: Sat Dec  2 23:00:01 CST 2023
+Time Taken by Simulation l2_size-1: 2 minutes and 28 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 411200
+Debug: Cost added to hashmaps
+Start Time of Simulation l2_size-2: Sat Dec  2 23:00:01 CST 2023
+Simulation Number: 22
+Running command for l2_size-2:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l2_size-2 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=2MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l2_size-2/output.txt
+End Time of Simulation l2_size-2: Sat Dec  2 23:02:12 CST 2023
+Time Taken by Simulation l2_size-2: 2 minutes and 11 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=2 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 412800
+Debug: Cost added to hashmaps
+Start Time of Simulation l2_size-4: Sat Dec  2 23:02:13 CST 2023
+Simulation Number: 23
+Running command for l2_size-4:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l2_size-4 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=4MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l2_size-4/output.txt
+End Time of Simulation l2_size-4: Sat Dec  2 23:04:24 CST 2023
+Time Taken by Simulation l2_size-4: 2 minutes and 11 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=4 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 416000
+Debug: Cost added to hashmaps
+Start Time of Simulation l2_size-8: Sat Dec  2 23:04:25 CST 2023
+Simulation Number: 24
+Running command for l2_size-8:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l2_size-8 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=8MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l2_size-8/output.txt
+End Time of Simulation l2_size-8: Sat Dec  2 23:06:41 CST 2023
+Time Taken by Simulation l2_size-8: 2 minutes and 16 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=8 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 422400
+Debug: Cost added to hashmaps
+Start Time of Simulation l2_size-16: Sat Dec  2 23:06:42 CST 2023
+Simulation Number: 25
+Running command for l2_size-16:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l2_size-16 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=16MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l2_size-16/output.txt
+End Time of Simulation l2_size-16: Sat Dec  2 23:08:58 CST 2023
+Time Taken by Simulation l2_size-16: 2 minutes and 16 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=16 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 435200
+Debug: Cost added to hashmaps
+Start Time of Simulation l2_size-32: Sat Dec  2 23:08:58 CST 2023
+Simulation Number: 26
+Running command for l2_size-32:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l2_size-32 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=32MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l2_size-32/output.txt
+End Time of Simulation l2_size-32: Sat Dec  2 23:11:16 CST 2023
+Time Taken by Simulation l2_size-32: 2 minutes and 18 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=32 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 460800
+Debug: Cost added to hashmaps
+Start Time of Simulation l2_size-64: Sat Dec  2 23:11:16 CST 2023
+Simulation Number: 27
+Running command for l2_size-64:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l2_size-64 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=64MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l2_size-64/output.txt
+End Time of Simulation l2_size-64: Sat Dec  2 23:13:34 CST 2023
+Time Taken by Simulation l2_size-64: 2 minutes and 18 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=64 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 512000
+Debug: Cost added to hashmaps
+Start Time of Simulation l2_size-128: Sat Dec  2 23:13:34 CST 2023
+Simulation Number: 28
+Running command for l2_size-128:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l2_size-128 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=128MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l2_size-128/output.txt
+End Time of Simulation l2_size-128: Sat Dec  2 23:15:47 CST 2023
+Time Taken by Simulation l2_size-128: 2 minutes and 13 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=128 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 614400
+Debug: Cost added to hashmaps
+Start Time of Simulation l1i_assoc-1: Sat Dec  2 23:15:47 CST 2023
+Simulation Number: 29
+Running command for l1i_assoc-1:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1i_assoc-1 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=1 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1i_assoc-1/output.txt
+End Time of Simulation l1i_assoc-1: Sat Dec  2 23:18:04 CST 2023
+Time Taken by Simulation l1i_assoc-1: 2 minutes and 17 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=1, l2_assoc=1
+Debug: cost calculated=Total Cost: 328960
+Debug: Cost added to hashmaps
+Start Time of Simulation l1i_assoc-2: Sat Dec  2 23:18:04 CST 2023
+Simulation Number: 30
+Running command for l1i_assoc-2:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1i_assoc-2 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1i_assoc-2/output.txt
+End Time of Simulation l1i_assoc-2: Sat Dec  2 23:20:42 CST 2023
+Time Taken by Simulation l1i_assoc-2: 2 minutes and 38 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 411200
+Debug: Cost added to hashmaps
+Start Time of Simulation l1i_assoc-4: Sat Dec  2 23:20:42 CST 2023
+Simulation Number: 31
+Running command for l1i_assoc-4:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1i_assoc-4 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=4 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1i_assoc-4/output.txt
+End Time of Simulation l1i_assoc-4: Sat Dec  2 23:23:19 CST 2023
+Time Taken by Simulation l1i_assoc-4: 2 minutes and 37 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=4, l2_assoc=1
+Debug: cost calculated=Total Cost: 575680
+Debug: Cost added to hashmaps
+Start Time of Simulation l1i_assoc-8: Sat Dec  2 23:23:19 CST 2023
+Simulation Number: 32
+Running command for l1i_assoc-8:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1i_assoc-8 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=8 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1i_assoc-8/output.txt
+End Time of Simulation l1i_assoc-8: Sat Dec  2 23:25:59 CST 2023
+Time Taken by Simulation l1i_assoc-8: 2 minutes and 40 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=8, l2_assoc=1
+Debug: cost calculated=Total Cost: 904640
+Debug: Cost added to hashmaps
+Start Time of Simulation l1d_assoc-1: Sat Dec  2 23:25:59 CST 2023
+Simulation Number: 33
+Running command for l1d_assoc-1:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1d_assoc-1 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=1 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1d_assoc-1/output.txt
+End Time of Simulation l1d_assoc-1: Sat Dec  2 23:28:38 CST 2023
+Time Taken by Simulation l1d_assoc-1: 2 minutes and 39 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=1, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 328960
+Debug: Cost added to hashmaps
+Start Time of Simulation l1d_assoc-2: Sat Dec  2 23:28:38 CST 2023
+Simulation Number: 34
+Running command for l1d_assoc-2:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1d_assoc-2 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1d_assoc-2/output.txt
+End Time of Simulation l1d_assoc-2: Sat Dec  2 23:31:17 CST 2023
+Time Taken by Simulation l1d_assoc-2: 2 minutes and 39 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 411200
+Debug: Cost added to hashmaps
+Start Time of Simulation l1d_assoc-4: Sat Dec  2 23:31:17 CST 2023
+Simulation Number: 35
+Running command for l1d_assoc-4:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1d_assoc-4 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=4 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1d_assoc-4/output.txt
+End Time of Simulation l1d_assoc-4: Sat Dec  2 23:33:56 CST 2023
+Time Taken by Simulation l1d_assoc-4: 2 minutes and 39 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=4, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 575680
+Debug: Cost added to hashmaps
+Start Time of Simulation l1d_assoc-8: Sat Dec  2 23:33:56 CST 2023
+Simulation Number: 36
+Running command for l1d_assoc-8:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/l1d_assoc-8 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=8 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/l1d_assoc-8/output.txt
+End Time of Simulation l1d_assoc-8: Sat Dec  2 23:35:53 CST 2023
+Time Taken by Simulation l1d_assoc-8: 1 minutes and 57 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=8, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 904640
+Debug: Cost added to hashmaps
+Start Time of Simulation cacheline_size-8: Sat Dec  2 23:35:53 CST 2023
+Simulation Number: 37
+Running command for cacheline_size-8:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/cacheline_size-8 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=8 &> /home/011/a/ax/axs230094/m5out/cacheline_size-8/output.txt
+End Time of Simulation cacheline_size-8: Sat Dec  2 23:39:00 CST 2023
+Time Taken by Simulation cacheline_size-8: 3 minutes and 7 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=8, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 51400
+Debug: Cost added to hashmaps
+Start Time of Simulation cacheline_size-16: Sat Dec  2 23:39:00 CST 2023
+Simulation Number: 38
+Running command for cacheline_size-16:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/cacheline_size-16 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=16 &> /home/011/a/ax/axs230094/m5out/cacheline_size-16/output.txt
+End Time of Simulation cacheline_size-16: Sat Dec  2 23:41:30 CST 2023
+Time Taken by Simulation cacheline_size-16: 2 minutes and 30 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=16, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 102800
+Debug: Cost added to hashmaps
+Start Time of Simulation cacheline_size-32: Sat Dec  2 23:41:30 CST 2023
+Simulation Number: 39
+Running command for cacheline_size-32:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/cacheline_size-32 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=32 &> /home/011/a/ax/axs230094/m5out/cacheline_size-32/output.txt
+End Time of Simulation cacheline_size-32: Sat Dec  2 23:43:41 CST 2023
+Time Taken by Simulation cacheline_size-32: 2 minutes and 11 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=32, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 205600
+Debug: Cost added to hashmaps
+Start Time of Simulation cacheline_size-64: Sat Dec  2 23:43:41 CST 2023
+Simulation Number: 40
+Running command for cacheline_size-64:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/cacheline_size-64 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=64 &> /home/011/a/ax/axs230094/m5out/cacheline_size-64/output.txt
+End Time of Simulation cacheline_size-64: Sat Dec  2 23:45:58 CST 2023
+Time Taken by Simulation cacheline_size-64: 2 minutes and 17 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=64, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 411200
+Debug: Cost added to hashmaps
+Start Time of Simulation cacheline_size-128: Sat Dec  2 23:45:58 CST 2023
+Simulation Number: 41
+Running command for cacheline_size-128:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/cacheline_size-128 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=128 &> /home/011/a/ax/axs230094/m5out/cacheline_size-128/output.txt
+End Time of Simulation cacheline_size-128: Sat Dec  2 23:48:06 CST 2023
+Time Taken by Simulation cacheline_size-128: 2 minutes and 8 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=128, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 822400
+Debug: Cost added to hashmaps
+Start Time of Simulation cacheline_size-256: Sat Dec  2 23:48:06 CST 2023
+Simulation Number: 42
+Running command for cacheline_size-256:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/cacheline_size-256 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=256 &> /home/011/a/ax/axs230094/m5out/cacheline_size-256/output.txt
+End Time of Simulation cacheline_size-256: Sat Dec  2 23:50:08 CST 2023
+Time Taken by Simulation cacheline_size-256: 2 minutes and 2 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=256, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 1644800
+Debug: Cost added to hashmaps
+Start Time of Simulation cacheline_size-512: Sat Dec  2 23:50:09 CST 2023
+Simulation Number: 43
+Running command for cacheline_size-512:
+/usr/local/gem5/build/X86/gem5.opt -d /home/011/a/ax/axs230094/m5out/cacheline_size-512 /usr/local/gem5/configs/example/se.py -c ./src/benchmark -o ./data/test.txt -I 100000000 --cpu-type=atomic --caches --l2cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l1d_assoc=2 --l1i_assoc=2 --l2_assoc=1 --cacheline_size=512 &> /home/011/a/ax/axs230094/m5out/cacheline_size-512/output.txt
+End Time of Simulation cacheline_size-512: Sat Dec  2 23:52:06 CST 2023
+Time Taken by Simulation cacheline_size-512: 1 minutes and 57 seconds.
+Debug: l1d_size=128, l1i_size=128, l2_size=1 , cacheline_size=512, l1d_assoc=2, l1i_assoc=2, l2_assoc=1
+Debug: cost calculated=Total Cost: 3289600
+Debug: Cost added to hashmaps
+End Time of Entire Program: Sat Dec  2 23:52:06 CST 2023
+Total Time Taken by Entire Program: 102 minutes and 5 seconds.
+Total Number of Simulations: 43
+Config Name - Cost HashMap:
+  l1i_size-8: Total Cost: 219200
+  cacheline_size-32: Total Cost: 205600
+  l1d_size-8: Total Cost: 219200
+  l1d_assoc-8: Total Cost: 904640
+  l1d_assoc-4: Total Cost: 575680
+  l1i_size-1: Total Cost: 208000
+  l1d_size-2: Total Cost: 209600
+  l1i_size-2: Total Cost: 209600
+  l1d_size-1: Total Cost: 208000
+  l1i_size-32: Total Cost: 257600
+  l1d_assoc-1: Total Cost: 328960
+  l1i_size-4: Total Cost: 212800
+  l1d_assoc-2: Total Cost: 411200
+  l1d_size-4: Total Cost: 212800
+  l1d_size-64: Total Cost: 308800
+  l2_size-8: Total Cost: 422400
+  cacheline_size-128: Total Cost: 822400
+  l2_size-1: Total Cost: 411200
+  l1d_size-32: Total Cost: 257600
+  cacheline_size-512: Total Cost: 3289600
+  cacheline_size-8: Total Cost: 51400
+  l2_size-2: Total Cost: 412800
+  l2_size-32: Total Cost: 460800
+  l2_size-4: Total Cost: 416000
+  cacheline_size-16: Total Cost: 102800
+  l2_assoc-4: Total Cost: 657920
+  l1d_size-128: Total Cost: 411200
+  l2_assoc-1: Total Cost: 411200
+  l1i_size-128: Total Cost: 411200
+  l2_assoc-2: Total Cost: 493440
+  l1d_size-16: Total Cost: 232000
+  l1i_size-64: Total Cost: 308800
+  l2_assoc-8: Total Cost: 986880
+  l1i_size-16: Total Cost: 232000
+  l1i_assoc-4: Total Cost: 575680
+  cacheline_size-256: Total Cost: 1644800
+  l1i_assoc-1: Total Cost: 328960
+  l2_size-128: Total Cost: 614400
+  l1i_assoc-2: Total Cost: 411200
+  l2_size-64: Total Cost: 512000
+  cacheline_size-64: Total Cost: 411200
+  l1i_assoc-8: Total Cost: 904640
+  l2_size-16: Total Cost: 435200
+Txt File Name - Cost HashMap:
+  stats: Total Cost: 3289600
+
